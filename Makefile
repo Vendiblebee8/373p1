@@ -31,4 +31,4 @@ tar:	clean
 	gzip $(TARFILE)
 
 clean:
-	rm -f $(OBJ)/*.o $(EXE) *.tar.gz
+	rm -f *.o $(EXE) *.tar.gz
