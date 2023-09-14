@@ -19,11 +19,11 @@ OBJ = obj
 # Store executables in a subdirectory
 all: $(EXE)
 
-$(EXE): main.o
-	$(CC) $(FLAGS) main.o -o $@
+$(EXE): cataneo_p1.o
+	$(CC) $(FLAGS) cataneo_p1.o -o $@
 
-main.o: main.cpp
-	$(CC) $(FLAGS) -c main.cpp -o $@
+cataneo_p1.o: cataneo_p1.cpp
+	$(CC) $(FLAGS) -c cataneo_p1.cpp -o $@
 
 
 tar:	clean
